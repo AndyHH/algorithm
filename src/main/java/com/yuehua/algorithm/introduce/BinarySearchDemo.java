@@ -8,6 +8,12 @@ public class BinarySearchDemo {
         System.out.println(i);
     }
 
+    /**
+     * 二分查找
+     * @param arr 数组
+     * @param item 目标数据
+     * @return
+     */
     private static int binarySearch(int[] arr, int item) {
         int low = 0;
         int high = arr.length - 1;
